@@ -16,7 +16,7 @@ main() {
         fi
     done
 
-	if "${number_of_files}" = "${number_of_guessed_files}" ];
+	if ["${number_of_files}" = "${number_of_guessed_files}" ];
 	then 
 		 echo "Correct! There is/are ${number_of_guessed_files} file(s) in the current directory!"
      fi
